@@ -250,4 +250,13 @@ header{
     font-size: small;
 }
 
+.project-card p:nth-child(2){
+    color: rgb(121, 127, 134);
+    
+}
+
+.project-card p:nth-child(2){
+    font-size: 0.9em;
+}
+
 
