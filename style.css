@@ -33,6 +33,7 @@ header{
     display: grid;
     grid-template-rows: 10% 10% 80%;
     /* grid-template-rows: 5rem; */
+    overflow: auto;
 }
 .search-img{
     width: 1.5rem;
@@ -160,12 +161,13 @@ header{
 
 .project{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: 1fr 1fr;;
     justify-items: center;
     align-items: center;
     gap: 30px;
-    height: 100%;
+    /* height: 100%; */
     padding-left: 1em;
+    width: 100%;
 }
 
 .project-card{
@@ -195,7 +197,7 @@ header{
     display: grid;
     grid-template-rows: 1fr 1fr;
     align-items: center;
-    height: 100%;
+    /* height: 100%; */
 }
 
 .right-side-panel h3{
