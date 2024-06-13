@@ -152,6 +152,7 @@ header{
     grid-template-columns: 3.5fr 1.5fr;
     background-color: aliceblue;
     padding: 2em;
+    height: fit-content;
 }
 
 .projects{
